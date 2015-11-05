@@ -208,16 +208,17 @@ Diferenciais:
     * Interface com drag and drop;
     * Interface responsiva (desktop e mobile); (Implementado)
 
-### Solução: 
+### Solução:
 
 - A API Rest foi desenvolvida utilizando o slim 3 e possuí os seguintes métodos
-	```php
+
+```php
 	function insertTask();
     function syncServer();
     function allTasks();
     function editTask();
     function removeTask();
-    ```
+```
 - Interface para gerênciamento das tarefas foi criada utilizando o framework Bootstrap, junto com o
 pacote de Icons Font Awesome, para a interface DragAndDrop e suas interações foi usado o módulo angular Sortable
 ng-sortable.
