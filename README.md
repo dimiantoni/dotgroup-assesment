@@ -198,8 +198,8 @@ Desenvolva uma API Rest para um sistema gerenciador de tarefas
 prioridade.
 
 Desenvolver utilizando:
-    * Linguagem PHP ou framework CakePHP; 
-	(Por se tratar de um simples micro-serviço optei por usar um Micro-Framework, mais indicado para desenvolvimento de 
+    * Linguagem PHP ou framework CakePHP;
+	(Por se tratar de um simples micro-serviço optei por usar um Micro-Framework, mais indicado para desenvolvimento de
 	APIs por possuir um kernel mais enxuto que dispensa recursos voltados para camadas de visão neste caso foi
 	utilizado o Slim 3).
     * Banco de dados MySQL;
@@ -242,6 +242,10 @@ feito isto então acesse em seu navegador a seguinte url:
 ```
 http://localhost/teste-tecnico/teste-4/controle-tarefas
 ```
+
+Para mudar a ordem de prioridade de uma tarefa clique no ícone de reordenação arraste o bloco até a posição desejada 
+e solte, esta ação irá disparar uma requisição para a API, com a lista re-ordenada, e a API se encarregará de fazer
+a inserção dos dados no banco de dados.
 
 ###Para análise do código o projeto inteiro pode ser aberto no editor de sua preferência.
 --------------------------------------
