@@ -1,7 +1,7 @@
 #Teste técnico para vaga de Desenvolvedor PHP Pleno.
 
-###Todos os requisitos do escopo dos testes foram implementados inclusive os considerados diferenciais
-todo o código escrito adequado as regras:
+###Todos os requisitos do escopo dos testes foram implementados inclusive os considerados diferenciais,
+todo o código escrito atende as regras:
 -----------------------------------
 
 1. PSR-1: Basic Coding Standard
