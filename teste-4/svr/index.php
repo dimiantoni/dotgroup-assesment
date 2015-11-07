@@ -22,6 +22,7 @@ $app->get('/', function () use ($app){
     echo "API Rest do Gerenciador de Tarefas";
 });
 
+//Grupo de rotas da API
 $app->group('/api', function () use ($app) {
 
     //Rota direta à função de listagem das tarefas
