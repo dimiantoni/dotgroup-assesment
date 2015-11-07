@@ -224,7 +224,7 @@ pacote de Icons Font Awesome, para a interface DragAndDrop e suas interações f
 ng-sortable.
 
 - As lógicas para comunicação assíncrona com a API e interações com o usuário foram escritas em javascript usando
-alguns recursos do AngularJS 1.3
+alguns recursos do AngularJS 1.3, e se encontram no arquivo app.js dentro da pasta de arquivos js no diretório assets.
 
 ### Requisitos para a API
 * HTTP Server. Por exemplo: Apache. Mod_rewrite ativado.
