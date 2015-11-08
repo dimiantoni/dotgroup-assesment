@@ -55,7 +55,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
 <?php
 /**
  * [redirect função para redirecionamento]
- * @return [type] [redireciona a aplicação para a url do google]
+ * redireciona a aplicação para a url do google
  * Foi criado uma classe visando a implementação de testes unitários.
  * Foi retirado a função exit() pois a mesma não é adequada, para uso principalmente
  * em casos que serão desenvolvidos testes unitários, também porquê o script é encerrado
